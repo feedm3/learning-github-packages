@@ -1,6 +1,7 @@
 {
-  "name": "learning-github-packages",
-  "version": "1.0.0",
+  "name": "@feedm3/learning-github-packages",
+  "version": "1.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "git://github.com/feedm3/learning-github-packages.git"
 }
