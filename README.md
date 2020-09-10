@@ -20,7 +20,7 @@ In the `package.json` the `repository` field is used for the repository in which
 is used to determine the name.
 
 1. In your package repository add an `.npmrc` file if not already present
-    - for every github organisation package add `@{GITHUB_ORG}:registry=https://npm.pkg.github.com/{GITHUB_ORG}`
+    - for every github organisation package add `@{GITHUB_ORG}:registry=https://npm.pkg.github.com`
  
 2. If you want to publish your package make sure you have the correct `package.json` config:
     - `repository`: needs to point to the repo in which the package gets published (example: `git://github.com/{GITHUB_ORG}/{REPO_NAME}.git`)
